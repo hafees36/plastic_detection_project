@@ -20,6 +20,5 @@ This project implements a simple plastic detection system using deep learning an
 - OpenCV
 - NumPy
 
-
-
+---
 
