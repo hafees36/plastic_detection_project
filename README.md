@@ -30,7 +30,7 @@ This project implements a simple plastic detection system using deep learning an
 It:
 
 - Preprocesses your raw phone images into a clean dataset
-- Trains a **binary classifier** (`plastic` / `no_plastic`)
+- Trains a **binary classifier** (`clean` / `plastic`)
 - Saves and reuses a trained model (`plastic_detector.h5`)
 - Supports:
   - Testing a **single image**
@@ -46,11 +46,11 @@ You provide raw images in a folder named:
 
 ```bash
 dataset/
-├── plastic/
+├── clean/
 │   ├── img1.jpg
 │   ├── img2.jpg
 │   └── ...
-└── no_plastic/
+└── plastic/
     ├── img1.jpg
     ├── img2.jpg
     └── ...
